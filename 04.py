@@ -8,11 +8,13 @@ ls = re.sub(r'\.',"",str).split(" ")
 mem = [1,5,6,7,8,9,15,16,19]
 
 dict = {}
+i = 0
 
-for (s,n) in zip(ls, range(1,len(ls)+1)):
-    if n in mem:
-        dict[s[0:2]] = n
+for s in ls:
+    i += 1
+    if i in mem:
+        dict[s[0:2]] = i
     else:
-        dict[s[0:1]] = n
+        dict[s[0:1]] = i
 
 print dict
