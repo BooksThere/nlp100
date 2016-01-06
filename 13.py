@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# paste col1.txt col2.txt
+
 import codecs
 
 if1 = codecs.open('col1.txt', 'r', 'utf-8')

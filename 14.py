@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# head -n N hightemp.txt
+
 import sys
 import codecs
 

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# split -l N hightemp.txt hoge
+
 import sys
 import codecs
 import os

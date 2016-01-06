@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# tr '\t' ' ' < hightemp.txt
+
 import re
 import sys
 import codecs

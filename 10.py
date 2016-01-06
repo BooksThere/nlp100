@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# wc -l hightemp.txt
+
 import sys
 import codecs
 
